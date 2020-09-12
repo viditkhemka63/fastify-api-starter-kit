@@ -30,7 +30,7 @@ $ npm start
 
 ## Author
 
-👤 **viidtkhemka63 <viditkhemka63@gmail.com>**
+👤 **viditkhemka63 <viditkhemka63@gmail.com>**
 
 * Github: [@viditkhemka63](https://github.com/viditkhemka63)
 
