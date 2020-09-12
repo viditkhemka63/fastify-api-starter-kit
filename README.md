@@ -8,6 +8,13 @@
 
 > This is an fastify based Nodejs server that implements production-ready error handling and logging following latest best practices.
 
+---
+**NOTE**
+
+Work under progress
+
+---
+
 ## Usage
 
 ### Development
