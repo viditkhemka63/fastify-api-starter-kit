@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "tsc --watch --preserveWatchOutput --pretty",
-    "dev": "cross-env NODE_ENV=development nodemon",
+    "dev": "nodemon --watch \"src/**/*.ts\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node\" src/index.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "build": "rimraf dist && tsc",
     "start": "node dist/index.js"
