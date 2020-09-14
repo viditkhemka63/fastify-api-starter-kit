@@ -5,7 +5,7 @@ var indexRouter = async (fastify: FastifyInstance) => {
     // GET /
   fastify.get("/", async (_request: FastifyRequest, reply: FastifyReply) => {
 
-    console.log(_request)
+    console.log(_request.body)
     reply.send({'message': 'Hello World'})
   });
 }
